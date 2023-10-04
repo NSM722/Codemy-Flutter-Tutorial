@@ -24,6 +24,8 @@ class MyApp extends StatelessWidget {
         ),
         body: Container(
           /// the width + height are till the contained content unless specified
+          height: 200.0,
+          width: 400.0,
           color: Colors.green[400],
           child: const Text(
             'CHris Breezy',
