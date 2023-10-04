@@ -12,6 +12,16 @@ void main() {
               ),
             ),
           ),
+          body: const Center(
+            child: Text(
+              textAlign: TextAlign.center,
+              'Become an android developer',
+              style: TextStyle(
+                fontSize: 26,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
         )),
   );
 }
