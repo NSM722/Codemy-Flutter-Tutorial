@@ -3,6 +3,46 @@
 - [Material Design Components](https://m3.material.io/components "read docs")
 
 - [Material Design Color System](https://m3.material.io/styles/color/the-color-system/key-colors-tones "read docs")
+
+## Flutter run key commands
+
+```terminal
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+```
+
+## Short Useful Commands
+
+```dart
+/// stl then the TAB key for a StatefulWidget
+class MyWidget extends StatefulWidget {
+  const MyWidget({super.key});
+
+  @override
+  State<MyWidget> createState() => _MyWidgetState();
+}
+
+class _MyWidgetState extends State<MyWidget> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
+
+/// stlss then the TAB key for a StatelessWidget
+class MyWidget extends StatelessWidget {
+  const MyWidget({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
+```
   
 ## NetworkImage()
 
