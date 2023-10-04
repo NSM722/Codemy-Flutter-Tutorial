@@ -14,9 +14,12 @@ void main() {
           ),
         ),
         body: const Center(
-          child: Image(
-            image: NetworkImage(
-              'https://picsum.photos/id/54/400',
+          child: Padding(
+            padding: EdgeInsets.all(12.0),
+            child: Image(
+              image: AssetImage(
+                'images/local_img.png',
+              ),
             ),
           ),
         ),
