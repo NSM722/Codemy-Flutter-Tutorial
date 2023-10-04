@@ -6,7 +6,11 @@ void main() {
         title: 'Hey there',
         home: Scaffold(
           appBar: AppBar(
-            title: const Text('Stranger things'),
+            title: const Center(
+              child: Text(
+                'Stranger things',
+              ),
+            ),
           ),
         )),
   );
