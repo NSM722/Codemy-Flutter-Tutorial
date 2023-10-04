@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
           /// the width + height are till the contained content unless specified
           height: 200.0,
           width: 400.0,
+          padding: const EdgeInsets.all(14.0),
           color: Colors.green[400],
           child: const Text(
             'CHris Breezy',
