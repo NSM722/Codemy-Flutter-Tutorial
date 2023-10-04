@@ -22,14 +22,11 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        body: const Center(
-          child: Padding(
-            padding: EdgeInsets.all(12.0),
-            child: Image(
-              image: AssetImage(
-                'images/local_img.png',
-              ),
-            ),
+        body: Container(
+          /// the width + height are till the contained content unless specified
+          color: Colors.green[400],
+          child: const Text(
+            'CHris Breezy',
           ),
         ),
       ),
