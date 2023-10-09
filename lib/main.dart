@@ -23,14 +23,14 @@ class MyApp extends StatelessWidget {
         //   ),
         // ),
         body: SafeArea(
-          child: Column(
+          child: Row(
             // mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
                 /// the width + height are till the contained content unless specified
-                height: 200.0,
-                width: 300.0,
+                height: 50.0,
+                width: 120.0,
                 alignment: Alignment.center,
                 padding: const EdgeInsets.all(14.0),
                 // margin: const EdgeInsets.all(150.0),
@@ -41,8 +41,8 @@ class MyApp extends StatelessWidget {
               ),
               Container(
                 /// the width + height are till the contained content unless specified
-                height: 200.0,
-                width: 300.0,
+                height: 50.0,
+                width: 120.0,
                 alignment: Alignment.center,
                 padding: const EdgeInsets.all(14.0),
                 // margin: const EdgeInsets.all(150.0),
@@ -53,8 +53,8 @@ class MyApp extends StatelessWidget {
               ),
               Container(
                 /// the width + height are till the contained content unless specified
-                height: 200.0,
-                width: 300.0,
+                height: 50.0,
+                width: 120.0,
                 alignment: Alignment.center,
                 padding: const EdgeInsets.all(14.0),
                 // margin: const EdgeInsets.all(150.0),
