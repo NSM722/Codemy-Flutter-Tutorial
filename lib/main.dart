@@ -23,17 +23,47 @@ class MyApp extends StatelessWidget {
         //   ),
         // ),
         body: SafeArea(
-          child: Container(
-            /// the width + height are till the contained content unless specified
-            height: 200.0,
-            width: 300.0,
-            alignment: Alignment.center,
-            padding: const EdgeInsets.all(14.0),
-            // margin: const EdgeInsets.all(150.0),
-            color: Colors.green[400],
-            child: const Text(
-              'CHris Breezy',
-            ),
+          child: Column(
+            // mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Container(
+                /// the width + height are till the contained content unless specified
+                height: 200.0,
+                width: 300.0,
+                alignment: Alignment.center,
+                padding: const EdgeInsets.all(14.0),
+                // margin: const EdgeInsets.all(150.0),
+                color: Colors.green[400],
+                child: const Text(
+                  'COLUMN 1',
+                ),
+              ),
+              Container(
+                /// the width + height are till the contained content unless specified
+                height: 200.0,
+                width: 300.0,
+                alignment: Alignment.center,
+                padding: const EdgeInsets.all(14.0),
+                // margin: const EdgeInsets.all(150.0),
+                color: Colors.red[400],
+                child: const Text(
+                  'COLUMN 2',
+                ),
+              ),
+              Container(
+                /// the width + height are till the contained content unless specified
+                height: 200.0,
+                width: 300.0,
+                alignment: Alignment.center,
+                padding: const EdgeInsets.all(14.0),
+                // margin: const EdgeInsets.all(150.0),
+                color: Colors.grey[400],
+                child: const Text(
+                  'COLUMN 3',
+                ),
+              )
+            ],
           ),
         ),
       ),
