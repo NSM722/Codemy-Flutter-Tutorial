@@ -14,22 +14,26 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Hey there',
       home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.blue[700],
-          title: const Center(
-            child: Text(
-              'Stranger things',
+        // appBar: AppBar(
+        //   backgroundColor: Colors.blue[700],
+        //   title: const Center(
+        //     child: Text(
+        //       'Stranger things',
+        //     ),
+        //   ),
+        // ),
+        body: SafeArea(
+          child: Container(
+            /// the width + height are till the contained content unless specified
+            height: 200.0,
+            width: 300.0,
+            alignment: Alignment.center,
+            padding: const EdgeInsets.all(14.0),
+            // margin: const EdgeInsets.all(150.0),
+            color: Colors.green[400],
+            child: const Text(
+              'CHris Breezy',
             ),
-          ),
-        ),
-        body: Container(
-          /// the width + height are till the contained content unless specified
-          height: 200.0,
-          width: 400.0,
-          padding: const EdgeInsets.all(14.0),
-          color: Colors.green[400],
-          child: const Text(
-            'CHris Breezy',
           ),
         ),
       ),
